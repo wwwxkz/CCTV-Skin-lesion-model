@@ -1,0 +1,7 @@
+services:
+  model:
+    ports:
+      - "8888:8888"
+    image: jupyter/tensorflow-notebook
+    volumes:
+      - ./:/home/jovyan/
